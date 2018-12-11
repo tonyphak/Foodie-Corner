@@ -1,0 +1,34 @@
+<div class="container form-div col-6">
+    <form class="recipe-form p-2 mt-2">
+        <div class="form-group recipeName">
+            <h4><label>Recipe Name</label></h4>
+            <input class="form-control validate1" id="name" placeholder="Name of Recipe" required>
+        </div>
+        <div class="form-group description">
+            <h4><label>Description</label></h4>
+            <input class="form-control validate1" id="description" placeholder="Recipe Description" required>
+        </div>
+        <div class="form-group ingredients">
+            <h4><label>Ingredients</label></h4>
+            <textarea class="form-control validate1" id="ingredients" rows="8" required></textarea>
+        </div>
+        <div class="form-group instruct">
+            <h4><label>Instructions</label><h4>
+            <textarea class="form-control validate1" id="instruct" rows="8" required></textarea>
+        </div>
+        <div class="form-group category">
+            <h4><label for="exampleSelect1">Select a Category</label></h4>
+            <select class="form-control" id="category">
+                <option value="" disabled selected>Select an Option</option>
+                <option value="1">Appertizer</option>
+                <option value="2">Poutry</option>
+                <option value="3">Seafood</option>
+                <option value="4">Soup</option>
+                <option value="5">Sandwich</option>
+                <option value="6">Dessert</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary submit">Submit</button>
+    </form>
+</div>

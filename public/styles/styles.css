@@ -1,0 +1,164 @@
+
+/* header */
+
+#navbar {
+	padding: 20px 0;
+	background-color: #6b092a;
+	border-bottom: 3px solid rgb(200, 193, 13);
+	margin: 0;
+}
+
+.nav-item {
+	color: #ffffff;
+}
+
+.form-inline {
+	flex-flow: nowrap;
+}
+
+#container {
+	margin: 0;
+	max-width: 100%; 
+	padding: 0;
+
+}
+
+/* #navigation {
+display: flex;
+justify-content: end;
+} */
+
+/* Sign Up Modal  */
+
+.modal-content {
+	background:#6b092a;
+}
+
+#modalClose {
+	opacity: 1;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+	display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+	/*Without this, clicking will make it sticky*/
+	pointer-events: none;
+	}
+
+.dropdown-toggle::after {
+    display:none;
+}
+	
+.dropdown-menu {
+	text-align: right
+}
+
+
+
+/* Footer */
+
+.jumboFoot {
+	margin-bottom: 0;
+}
+
+#jumboFoot1 {
+	background-color: rgb(200, 193, 13);
+	/* background-color: #6b092a; */
+}
+
+#jumboFoot2 {
+	background-color: rgb(107, 9, 42);
+	border-top: 3px solid rgb(200, 193, 13);
+	height: 75px
+}
+
+#footerLinks {
+	font-size: 2em;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#gitHub {
+	color: rgb(255, 255, 255);
+}
+
+#gitHub:hover {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+#content {
+	height:100vh;	  
+}
+
+/* index */
+
+/* Working method */
+.tinted-image {
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    -webkit-linear-gradient(
+			top,
+			rgba(200, 193, 13, 0.35), 
+			rgba(200, 193, 13, 0.35) 
+	),
+    /* bottom, image */
+		url("/images/pexels-photo-691114.jpeg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover; 	
+}
+	
+.fill {
+	background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* misc */
+
+/* images and div food2fork api*/
+
+.images{
+	width: 250px;
+	height: 200px;
+}
+.card{
+	width:250px;
+	display: inline-block;
+	margin: 10px;
+}
+
+/* allows scrolling for a specific div */
+
+.row-div {
+	height: 95vh;
+	max-height: 900px;
+  overflow-y: scroll;
+	width: 100%;
+}
+
+.recipe-form{
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+
+.card-title {
+	height: 50px;
+}
+
+/* misc */
+
+
+/* Media Queries */
+
+/* @media only screen 
+  and (min-device-width: 1024px) 
+	and (max-device-width: 1440px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+		nav {
+			width: 100%;
+		}
+} */
